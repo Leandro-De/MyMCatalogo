@@ -1,67 +1,83 @@
 const products = [
       {
         type: "celular",
-        name: "Samsung A17",
+        name: "Samsung A17 5G",
         specs: "265GB / 8GB RAM",
-        price: "$799.000",
         img: "assets/SamsungA17.png"
       },
       {
         type: "celular",
         name: "Redmi 15C",
         specs: "128GB / 6GB RAM",
-        price: "$469.999",
         img: "assets/Redmi.png"
       },
       {
         type: "pc",
         name: "PORTATIL HP245 G10",
         specs: "RYZEN 3 7320U / 8+512GB / 15.6",
-        price: "$1'250.000",
         img: "assets/HP.webp"
       },
       {
         type: "celular",
         name: "Honor 400 Smart",
         specs: "265GB / 12GB RAM",
-        price: "$1'099.999",
         img: "assets/Honor.webp"
       },
       {
         type: "pc",
         name: "ASUS VIVOBOOK E1504F",
         specs: "R5-7520U / 16GB RAM / 512GB",
-        price: "$1'250.000",
         img: "assets/Asus.png"
       },
       {
         type: "nevera",
         name: "Nevera kalley 187 litros",
         specs: "Precio especial de oferta",
-        price: "$1'099.999",
         img: "assets/nevera1.png"
       },
       {
         type: "freidora",
         name: "Freidora de Aire Kalley",
         specs: "6.3 Litros / Multiples recetas",
-        price: "$299.999",
         img: "assets/freidora.png"
       },
       {
         type: "scooter",
         name: "Xiaomi Scooter 4 lite 2Gen",
         specs: "¡Precio especial de super oferta!",
-        price: "$1'479.999",
         img: "assets/scooter.png"
       },
       {
         type: "celular",
         name: "Samsung S25 Ultra",
         specs: "512GB / 12GB RAM",
-        price: "$4'999.999",
         img: "assets/s25.webp"
       },
+      {
+        type: "celular",
+        name: "Motorola G32",
+        specs: "128GB / 4GB RAM",
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_918746-MLU78214736673_082024-F.webp"
+      },
+      {
+        type: "tv",
+        name: "Televisor Samsung 43''",
+        specs: "--",
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_946225-MLA99524335066_122025-F.webp"
+      },
+      {
+        type: "sandu",
+        name: "Sanduchera Kalley",
+        specs: "--",
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_754400-MLA84835977167_052025-F.webp"
+      },
+      {
+        type: "celular",
+        name: "Vivo Y36",
+        specs: "128GB / 4G RAM",
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_988699-MCO99539154939_112025-F.webp"
+      },
+      
     ];
 
     const catalog = document.getElementById("catalog");
@@ -89,7 +105,7 @@ const products = [
       const message =
         `Hola ${seller.name}, estoy interesado en el producto:
 
-📱 ${product.name}
+ ${product.name}
 📝 ${product.specs}
 
 Gracias.`;
