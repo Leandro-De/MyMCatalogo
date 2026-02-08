@@ -306,6 +306,42 @@ const products = [
         img: "https://http2.mlstatic.com/D_NQ_NP_2X_662821-MLA99471839620_112025-F.webp"
       },
       {
+        type: "celular",
+        name: "Zte Blade A35e",
+        specs: "64GB / 2GB RAM",
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_895805-MCO103145506883_122025-F.webp"
+      },
+            {
+        type: "celular",
+        name: "ZTE Blade A55",
+        specs: "128GB / 4GB RAM",
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_883059-MLA99522537322_122025-F.webp"
+      },
+            {
+        type: "celular",
+        name: "Zte Blade A56 Pro",
+        specs: "128GB / 4GB RAM",
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_945803-MCO96075812820_102025-F.webp"
+      },
+            {
+        type: "celular",
+        name: "ZTE BLADE V70 MAX 4",
+        specs: "256GB / 4GB RAM",
+        img: "https://media.falabella.com/falabellaCO/148198532_01/w=1200,h=1200,fit=pad"
+      },
+            {
+        type: "celular",
+        name: "ZTE NUBIA V80 PRO 8",
+        specs: "256GB / 8GB RAM",
+        img: "https://media.falabella.com/falabellaCO/73505040_1/w=1200,h=1200,fit=pad"
+      },
+            {
+        type: "celular",
+        name: "INFINIX HOT 60i 5G",
+        specs: "256GB / 8GB RAM",
+        img: "https://http2.mlstatic.com/D_NQ_NP_2X_896076-MLA97003586246_112025-F.webp"
+      },
+      {
         type: "estufa",
         name: "Estufa Romero Torre Haceb",
         specs: "Gas Natural Negra Color Negro",
